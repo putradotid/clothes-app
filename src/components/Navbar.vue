@@ -11,7 +11,9 @@ import { RouterLink } from 'vue-router'
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/products">Product</RouterLink>
       <RouterLink to="/products-category">Category</RouterLink>
-      <RouterLink to="/cart">Cart</RouterLink>
+      <RouterLink to="/cart">
+        <font-awesome-icon class="text-xl" icon="fa-solid fa-cart-arrow-down" />
+      </RouterLink>
     </nav>
 
   </div>
