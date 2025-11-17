@@ -5,9 +5,8 @@ import Navbar from './components/Navbar.vue'
 
 <template>
   <header>
-    <div class="wrapper">
+    <div class="wrapper fixed top-0 left-0 right-0 z-10">
       <Navbar />
-
     </div>
   </header>
 

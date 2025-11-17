@@ -10,7 +10,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
+  <div class="mt-16">
     <h1>Product</h1>
 
     <div v-if="productsStore.loading">. . .</div>
